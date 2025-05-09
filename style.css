@@ -176,8 +176,7 @@
 @media(max-width:800px){
     .menu{
         display: block;
-    }
-    #nav-bar ul{
+    }#nav-bar ul{
         position: absolute;
         top: 60px;
         right: 0;
@@ -187,20 +186,18 @@
         background-color: var(--nav-bg);
         gap: 0;
         overflow: hidden;
-    }
-    #nav-bar ul li{
+    }#nav-bar ul li{
         padding: 20px;
-    }
-    #nav-list{
+    }#nav-list{
         transition: all 0.5s;
-    }
-    .welcome-page{
+    }welcome-page{
         height: auto;
         flex-direction: column;
-    }
-    .welcome{
+    }welcome{
         width: 100%;
         height: 400px;
         justify-content: center;
+    }.theme i,.menu i{
+        font-size: 26px;
     }
 }
