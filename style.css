@@ -145,6 +145,7 @@
     display: flex;
     align-items: center;
     background-color: var(--nav-bg);
+    overflow: hidden;
 }.scroll-conatiner{
     position: relative;
     overflow: hidden;
