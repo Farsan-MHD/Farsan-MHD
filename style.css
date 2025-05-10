@@ -197,7 +197,6 @@
     }.welcome{
         width: 100%;
         height: 400px;
-        margin: 0 5px;
         justify-content: center;
     }.theme i,.menu i{
         font-size: 26px;
