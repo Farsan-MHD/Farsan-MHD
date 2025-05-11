@@ -36,12 +36,12 @@
     font-weight: bold;
 }
 @keyframs gloving-text {
-    100%{
+    from{
          text-shadow:
              0 0 3px var(--glouving-text),
              0 0 5px var(--glouving-text),
              0 0 8px var(--glouving-text);
-    }0%{
+    }to{
         text-shadow: none;
     }
 }.nav-list{
