@@ -30,20 +30,13 @@
     left: 0;
 }#logo h1{
     color: var(--glouving-text);
-    animation: gloving-text 3s infinite;
+    text-shadow: 
+        0 0 3px var(--glouving-text),
+        0 0 5px var(--glouving-text),
+        0 0 8px var(--glouving-text);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, serif;
     font-size: 30px;
     font-weight: bold;
-}
-@keyframs gloving-text {
-    from{
-         text-shadow:
-             0 0 3px var(--glouving-text),
-             0 0 5px var(--glouving-text),
-             0 0 8px var(--glouving-text);
-    }to{
-        text-shadow: none;
-    }
 }.nav-list{
     display: flex;
     gap: 35px;
