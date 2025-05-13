@@ -135,7 +135,6 @@
     width: 380px;
     transform: rotate(180.5deg);
 }.devaloper-image{
-    z-index: 1;
     position: relative;
     width: 350px;
     height: 450px;
