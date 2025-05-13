@@ -79,7 +79,7 @@
     color: var(--text-color);
     border-left: 2px solid var(--unick-text);
 }.wecome-contant h2{
-    padding-left: 50px;
+    padding-left: 40px;
     font-size: 35px;
 }.wecome-contant h2 .welcome-dot{
     font-size: 55px;
