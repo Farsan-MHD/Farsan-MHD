@@ -146,8 +146,8 @@
     align-items: center;
     background-color: var(--nav-bg);
     overflow: hidden;
-    position: relative;
 }.scroll-conatiner{
+    position: relative;
     overflow: hidden;
     width: 100%;
 }.scroll-contant{
