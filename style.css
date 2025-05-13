@@ -268,7 +268,8 @@
         padding: 20px;
     }#nav-list{
         transition: all 0.5s;
-    }.welcome-page{
+    }.welcome-page
+        height: auto;
         flex-direction: column;
     }.welcome{
         width: 100%;
