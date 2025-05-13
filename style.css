@@ -268,7 +268,6 @@
     }#nav-list{
         transition: all 0.5s;
     }.welcome-page{
-        height: auto;
         flex-direction: column;
     }.welcome{
         width: 100%;
