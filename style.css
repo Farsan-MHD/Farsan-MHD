@@ -269,6 +269,7 @@
     }#nav-list{
         transition: all 0.5s;
     }.welcome-page{
+        width: 100%;
         height: auto;
         flex-direction: column;
     }.welcome{
