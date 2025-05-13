@@ -30,13 +30,24 @@
     left: 0;
 }#logo h1{
     color: var(--glouving-text);
-    text-shadow: 
-        0 0 3px var(--glouving-text),
-        0 0 5px var(--glouving-text),
-        0 0 8px var(--glouving-text);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, serif;
     font-size: 30px;
     font-weight: bold;
+    animation: glowBlink 10s infinite;
+}
+@keyframes glowBlink {
+  0% {
+    text-shadow: 0 0 10px var(--glouving-text), 0 0 20px var(--glouving-text), 0 0 30px var(--glouving-text);
+    opacity: 1;
+  }
+  50% {
+    text-shadow: none;
+    opacity: 0.3;
+  }
+  100% {
+    text-shadow: 0 0 10px var(--glouving-text), 0 0 20px var(--glouving-text), 0 0 30px var(--glouving-text);
+    opacity: 1;
+  }
 }.nav-list{
     display: flex;
     gap: 35px;
