@@ -210,7 +210,7 @@ body {
     z-index: 0;
     position: relative;
     width: 350px;
-    height: 450px;
+    height: auto;
 }
 
 /* Scroll Section */
