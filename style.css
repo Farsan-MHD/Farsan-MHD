@@ -147,10 +147,10 @@
     width: 380px;
     transform: rotate(180.5deg);
 }.devaloper-image{
-    z-index: -1;
     position: relative;
     width: 350px;
     height: 450px;
+    z-index: 1;
 }#scroll-main-container{
     width: 100%;
     height: 50px;
