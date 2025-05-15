@@ -207,7 +207,7 @@ body {
 
 .devaloper-image {
     z-index: 1;
-    position: relative;
+    position: absolute;
     width: 350px;
     height: 450px;
 }
