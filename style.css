@@ -220,6 +220,7 @@ body {
     align-items: center;
     background-color: var(--nav-bg);
     overflow: hidden;
+    position: relative;
 }
 
 .scroll-container {
