@@ -221,6 +221,7 @@ body {
     background-color: var(--nav-bg);
     overflow: hidden;
     position: relative;
+    z-index: -3;
 }
 
 .scroll-container {
