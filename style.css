@@ -190,7 +190,7 @@ body {
 .wecome-image {
     position: relative;
     width: 350px;
-    height: 450px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -209,7 +209,7 @@ body {
     z-index: 1;
     position: relative;
     width: 350px;
-    height: 450px;
+    height: 400px;
 }
 
 /* Scroll Section */
