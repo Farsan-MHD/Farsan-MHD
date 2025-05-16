@@ -1,16 +1,44 @@
-## Hi there 👋
+# Farsan MHD Portfolio
 
-<!--
-**Farsan-MHD/Farsan-MHD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my personal portfolio website repository!  
+This project showcases my skills, projects, and experience as a Front-End Developer.
 
-Here are some ideas to get you started:
+## 🚀 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Hi, I'm **Mohammed Farsan** – a passionate Front-End Developer skilled in:
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap
+
+I love building clean, modern, and responsive websites.
+
+## 🌟 Features
+
+- Responsive design
+- Animated sections
+- Downloadable resume
+- Project showcase
+
+## 📂 Project Structure
+
+- `index.html` – Main website file
+- `style.css` – Stylesheet
+- `script.js` – JavaScript functionality
+- `images/` – Images used in the site
+- `resume/` – My downloadable resume
+
+## 📄 Live Demo
+
+You can see the live version [here](#) (add your link).
+
+## 📫 Contact
+
+- Email: your.email@example.com
+- LinkedIn: [Your LinkedIn](#)
+
+---
+
+Thank you for visiting my portfolio!  
+Feel free to fork, star, or open issues for suggestions.
