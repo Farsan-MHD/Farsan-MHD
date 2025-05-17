@@ -8,9 +8,9 @@
 }
 
 :root {
-    --nav-bg: rgb(48, 44, 44);
+    --nav-bg: rgb(25, 23, 23);
     --nav-text: rgb(152, 141, 141);
-    --body-bg: rgb(27, 24, 24);
+    --body-bg: rgb(43, 39, 39);
     --glouving-text: rgb(250, 249, 249);
     --unick-text: rgb(253, 123, 2);
     --scroll-text: rgb(122, 111, 111);
@@ -109,11 +109,15 @@ body {
     background-color: transparent;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.welcome{
+    width: 380px;
+    height: 400px;
 }
 
 .wecome-contant {
-    width: 380px;
-    height: 400px;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -189,12 +193,11 @@ body {
 
 .wecome-image {
     position: relative;
-    width: 350px;
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    background-color: transparent;
 }
 
 .trangle {
@@ -259,7 +262,7 @@ body {
 /* About Section */
 #about-section {
     width: 100%;
-    min-height: 100dvh;
+    height: 700px;
     background-color: var(--body-bg);
     display: flex;
     justify-content: space-around;
@@ -340,6 +343,48 @@ body {
 .pera-2 { font-size: 19px; }
 .pera-3 { font-size: 18px; }
 
+#project-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.project-header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--unick-text)
+}
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    max-width: 1000px;
+}
+.projects a{
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+.project-image{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
 /* Responsive */
 @media(max-width:900px) {
     .menu {
@@ -368,6 +413,8 @@ body {
 
     .welcome-page {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .welcome {
@@ -389,6 +436,7 @@ body {
         flex-direction: column-reverse;
         margin-top: 100px;
         margin-bottom: 100px;
+        height: auto;
     }
 
     .about-contant {
