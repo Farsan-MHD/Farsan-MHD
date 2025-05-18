@@ -20,3 +20,15 @@ toggleMenu.addEventListener('click', function(){
         navList.style.maxHeight = '0px'
     }
 })
+
+
+// function to download resume
+
+function downloadResume() {
+    const link = document.createElement('a');
+    link.href = './resume/Farsan-Front-End-Resume.pdf'; 
+    link.download = 'Farsan-MHD-Resume.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
