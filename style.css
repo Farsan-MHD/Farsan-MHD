@@ -357,7 +357,6 @@ body {
     color: var(--unick-text)
 }
 .projects{
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -373,14 +372,13 @@ body {
 .project-image{
     width: 300px;
     height: 200px;
-    background-color: #fff;
-    border-radius: 25px;
     text-align: center;
+    border-radius: 15px;
 }
 .project-image img{
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 /* Responsive */

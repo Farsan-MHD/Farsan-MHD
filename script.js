@@ -24,11 +24,28 @@ toggleMenu.addEventListener('click', function(){
 
 // function to download resume
 
-function downloadResume() {
-    const link = document.createElement('a');
-    link.href = './resume/Farsan-Front-End-Resume.pdf'; 
-    link.download = 'Farsan-MHD-Resume.pdf'; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+// function downloadResume() {
+//     const link = document.createElement('a');
+//     link.href = './resume/Farsan-Front-End-Resume.pdf'; 
+//     link.download = 'Farsan-MHD-Resume.pdf'; 
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+// }
+
+function handleAction(action) {
+    if (action === 'resume') {
+        const link = document.createElement('a');
+        link.href = './resume/Farsan-Front-End-Resume.pdf';
+        link.download = 'Farsan-MHD-Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } else if (action === 'project') {
+        const projectSection = document.createElement('a');
+        projectSection.href = '#project-section';
+        document.body.appendChild(projectSection);
+        projectSection.click();
+        document.body.removeChild(projectSection);
+    }
 }
