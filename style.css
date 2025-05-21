@@ -380,6 +380,119 @@ body {
     height: 100%;
     border-radius: 15px;
 }
+#contact-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-profile{
+    width: 600px;
+    height: 520px;
+    border-radius: 25px;
+    
+}
+.profile-image-pera-link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.profile-image-pera{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+}
+.profile-name{
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 5px;
+    color: var(--text-color)
+}
+.profile-link{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-link i{
+    font-size: 25px;
+    color: var(--text-color);
+}
+.name-inputs{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name-inputs input{
+    width: 250px;
+    height: 40px;
+}
+.input{
+    border-radius: 5px;
+    border:none; 
+    padding-left: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.email-input{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.email-input input{
+    width: 550px;
+    height: 40px;
+}
+.messsage-input{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.messsage-input textarea{
+    width: 550px;
+}
+.submit-button{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-button button{
+    width: 200px;
+    height: 50px;
+    background-color: var(--unick-text);
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
 
 /* Responsive */
 @media(max-width:900px) {
@@ -444,4 +557,28 @@ body {
     .pera-1 { font-size: 18px; }
     .pera-2 { font-size: 17px; }
     .pera-3 { font-size: 16px; }
+
+    .contact-profile{
+        width: 350px;
+    }.profile{
+        flex-direction: column;
+    }
+    .profile-link{
+        height: 70px;
+    }
+    .name-inputs{
+        height: 120px;
+    }
+    .name-inputs input{
+        width: 300px;
+    }
+    .email-input{
+        height: 60px;
+    }
+    .email-input input{
+        width: 300px;
+    }
+    .messsage-input textarea{
+        width: 300px;
+    }
 }
