@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farsan MHD (Front-End Devaloper)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="#" class="logo">FARSAN MHD</a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about-section">ABOUT</a></li>
+            <li><a href="#skills-section">SKILLS</a></li>
+            <li><a href="#projects-section">PROJECTS</a></li>
+            <li><a href="#Authorized">CONTACT</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="toggle-menu"></i>
+    </nav>
+    <main id="main-container">
+        <header class="header-container" id="home">
+            <br class="header-main-pera"><span class="pera-1 pera">WELCOME</span></br>
+            <span class="pera">Hi i am Mohammed Farsan</span></br>
+           <span class="pera"> Front-End Devaloper</span></p>
+           <button id="ressume">My Ressume</button>
+        </header>
+        <section id="about-section">
+            <div class="about-body">
+                <div class="about-contant">
+                    <p class="about-pera">Hi, I’m <b>Mohammed Farsan</b>. I’m a front-end developer. I knew HTML, CSS, JavaScript, jQuery, and Bootstrap. I can make any website look beautiful and attractive.</p>
+                    <p class="about-pera">I love coding and design. I can make clean, modern, and mobile-friendly websites. I work hard/smart and always try new things to improve my skills.</p>
+                    <p class="about-pera">I believe in myself. Anything you imagine, I can try to build it</p>
+                </div>
+                <div class="about-image">
+                    <img src="image-folder/devaloper-image.png" alt="devaloper image">
+                </div>
+            </div>
+        </section>
+        <section id="skills-section">
+            <h1 class="skills-header">Skills</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box">
+                            <h4>HTML / CSS</h4>
+                            <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESSETTING.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="box">
+                            <h4>JAVASCRIPT</h4>
+                            <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESSETTING INDUSTRY. LOREM IPSUM.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="box">
+                            <h4>JQUERY</h4>
+                            <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESSETTING INDUSTRY. LOREM IPSUM HAS BEEN THE INDUSTRY'S.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box">
+                            <h4>BOOTSTRAP</h4>
+                            <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESSETTING INDUSTRY.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects-section">
+            <div class="container projects-container">
+                <h2 class="project-section-title">Projects</h2>
+                <div class="projects-row">
+                    <div class="project-box project-offset-1">
+                        <h4>SLC Sri Lanka Charity</h4>
+                        <p>Charity platform for donations and volunteering in Sri Lanka.</p>
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                    <div class="project-box project-offset-2">
+                        <h4>Online Shopping</h4>
+                        <p>Modern e-commerce website with cart and payment features.</p>
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                    <div class="project-box project-offset-3">
+                        <h4>Image Project</h4>
+                        <p>Responsive gallery website with beautiful image grid.</p>
+                        <a href="#" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Authorized" class="contact-section">
+            <div class="contact-container">
+                <h2 class="contact-title">Contact Me</h2>
+                <div class="contact-content">
+                    <div class="contact-profiles">
+                        <a href="https://www.linkedin.com/" target="_blank" class="profile-link linkedin" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:yourmail@gmail.com" class="profile-link gmail" title="Gmail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="profile-link twitter" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://wa.me/1234567890" target="_blank" class="profile-link whatsapp" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                        </div>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="footer-container">
+                <div class="footer-logo">FARSAN MHD</div>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/" target="_blank" class="footer-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:yourmail@gmail.com" class="footer-link" title="Gmail"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="footer-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/1234567890" target="_blank" class="footer-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <div class="footer-copy">
+                    &copy; 2025 Farsan MHD. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
