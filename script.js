@@ -1,13 +1,3 @@
-// Book opening animation on page load
-window.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() {
-        document.getElementById('book-opening-overlay').classList.add('opened');
-    }, 300);
-    setTimeout(function() {
-        document.getElementById('book-opening-overlay').style.display = 'none';
-    }, 1700);
-});
-
 toggleMenu = document.getElementById("toggle-menu");
 activeNav = document.getElementById("nav-links");
 
@@ -101,7 +91,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 
 document.getElementById('ressume').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = '/pdf-folder/Farsan-Front-End-Resume.pdf'; // Change to your actual PDF file name
+    link.href = 'Farsan-Front-End-Resume.pdf'; // Change to your actual PDF file name
     link.download = 'Farsan-MHD-Resume.pdf';  // The name for the downloaded file
     document.body.appendChild(link);
     link.click();
